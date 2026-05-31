@@ -1,0 +1,136 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+body {
+    background-color: #c3cb20;
+    color:#810bdb;
+    font-family:Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin:0 auto;
+    justify-content: center;
+}
+
+nav ul li {
+    color:white;
+    font-size: 16px;
+    cursor:pointer;
+    letter-spacing: 1px;
+    
+}
+
+nav ul li: hover {
+    color:ff0000;
+}
+
+.flex-demo {
+    display:flex;
+    justify-content:center;
+    background: red;
+    padding: 20px;
+    
+}
+
+
+.box {
+    
+    background: blue;
+    color: greenyellow;
+    padding: 20px;
+    margin: 5px;
+
+}
+
+.hero {
+    display:flex;
+    min-height: 100vh;
+    background-color:#1111;
+    padding: 0 60px;
+    align-items: center;
+    border-left: 3px solid #00ffcc;
+
+}
+.hero-tag {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(127, 127, 127);
+    letter-spacing:4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    
+}
+.hero h1 {
+    font-size: 90px;
+    font-weight:900;
+    color:#810bdb;
+    line-height: 1;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+.hero h1 span {
+    color: #00ffcc;
+}
+.hero-sub {
+    font-size: 20px;
+    color: #aaaaaa;
+    margin-bottom: 40px;
+}
+.hero-btn {
+    background-color: rgb(127, 127, 127);
+    color:#810bdb;
+    border:none;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor:pointer;
+    
+}
+.hero-btn:hover {
+    background-color: #810bdb;
+    color: rgb(127, 127, 127)
+}
+
+nav ul li a {
+    color:#ffffff;
+    text-decoration:none;
+
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+
+#projects {
+    min-height:100vh;
+    background-color:#ff0000;
+    padding: 80px;
+}
+
+#about {
+    min-height:100vh;
+    background-color: #111111;
+    padding: 80px;
+}
+#contacts {
+    min-height:100vh;
+    background-color: #e205ff;
+    padding: 80px;
+}
