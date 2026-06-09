@@ -35,7 +35,7 @@ nav ul li {
 }
 
 nav ul li: hover {
-    color:ff0000;
+    color: #ff0000;
 }
 
 .flex-demo {
@@ -89,7 +89,7 @@ nav ul li: hover {
 }
 .hero-sub {
     font-size: 20px;
-    color: #aaaaaa;
+    color: grey;
     margin-bottom: 40px;
 }
 .hero-btn {
@@ -169,7 +169,7 @@ nav ul li a:hover {
 }
 .about-desc {
     font-size: 18px;
-    color: #aaaaaa;
+    color: grey;
     line-height:1.8;
     margin-bottom:40px;
     max-width:600px;
@@ -206,7 +206,7 @@ nav ul li a:hover {
 
 .contact-btn {
     display:inline-block;
-    background-color:#aaaaaa;
+    background-color:grey;
     color:#ffffff;
     padding: 18px 40px;
     font-size:13px;
