@@ -5,7 +5,7 @@
     
 }
 body {
-    background-color: #c3cb20;
+    background-color: #cb20988a;
     color:#810bdb;
     font-family:Arial, sans-serif;
 }
@@ -27,7 +27,7 @@ nav ul {
 }
 
 nav ul li {
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 16px;
     cursor:pointer;
     letter-spacing: 1px;
